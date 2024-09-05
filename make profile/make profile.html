@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>make your profile</title>
+  </head>
+  <style>
+    .formbox {
+      display: flex;
+      font-weight: 900px;
+      margin: 20px;
+    }
+    .form p{
+        direction: ltr;
+        font-size: 20px;
+    }
+    .form {
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: column;
+      justify-content: center;
+      justify-items: center;
+      align-items: center;
+    }
+  </style>
+  <body>
+    <div class="form">
+      <div class="formbox">
+        <p>yourname :</p>
+        <input type="text" id="name" />
+      </div>
+      <div class="formbox">
+        <p>discription :</p>
+        <input type="text" id="dis" />
+      </div>
+      <div class="formbox">
+        <p>your photo :</p>
+        <input type="text" id="photo" />
+      </div>
+      <div class="formbox">
+        <p>facebook :</p>
+        <input type="text" id="facebook" />
+      </div>
+      <div class="formbox">
+        <p>linkedin :</p>
+        <input type="text" id="linkedin" />
+      </div>
+      <div class="formbox">
+        <p>youtube :</p>
+        <input type="text" id="youtube" />
+      </div>
+
+      <input type="button" onclick="make()" value="make" />
+      <br />
+      <textarea id="code" rows="4" cols="50"></textarea>
+    </div>
+
+    <script src="https://raw.githack.com/KERO-SALAH/Fox/main/send.js"></script>
+  </body>
+</html>
